@@ -5,24 +5,24 @@ VERSION = "2.3"
 
 rolls = {
     'rock': {
-        'defeats': ['scissors', 'alligator'],
+        'defeats': ['scissors', 'lizard'],
         'defeated_by': ['paper', 'spock']
     },
     'paper': {
         'defeats': ['rock', 'spock'],
-        'defeated_by': ['scissors', 'alligator']
+        'defeated_by': ['scissors', 'lizard']
     },
     'scissors': {
-        'defeats': ['paper', 'alligator'],
+        'defeats': ['paper', 'lizard'],
         'defeated_by': ['rock', 'spock']
     },
-    'alligator': {
+    'lizard': {
         'defeats': ['paper', 'spock'],
         'defeated_by': ['rock', 'scissors']
     },
     'spock': {
         'defeats': ['rock', 'scissors'],
-        'defeated_by': ['alligator', 'paper']
+        'defeated_by': ['lizard', 'paper']
     },
 }
 
